@@ -57,19 +57,19 @@ mytodo/<br>
 git clone https://github.com/Ishu6129/mytodo.git
 cd mytodo
 ```
-# (Optional) create and activate virtual environment
+### (Optional) create and activate virtual environment
 ````
 python -m venv venv
 source venv/bin/activate
 ````
-# Install dependencies
+### Install dependencies
 ````
 pip install flask flask_sqlalchemy
 ````
 
 
 
-## 🗃️ Database Setup
+# 🗃️ Database Setup
 
 In Python shell or a separate file (like `init_db.py`):
 
