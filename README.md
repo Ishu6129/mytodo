@@ -56,12 +56,14 @@ mytodo/<br>
 ```bash
 git clone https://github.com/Ishu6129/mytodo.git
 cd mytodo
-
+```
 # (Optional) create and activate virtual environment
+````
 python -m venv venv
-source venv/bin/activate    # Windows
-
+source venv/bin/activate
+````
 # Install dependencies
+````
 pip install flask flask_sqlalchemy
 ````
 
