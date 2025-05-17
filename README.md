@@ -31,20 +31,20 @@ A minimalist and responsive ToDo list web application built with **Flask**, **SQ
 
 ```
 
-mytodo/
-├── app.py
-├── instance/
-│   ├── todo.db  # will be create after running init_db.py
-├── templates/
-│   ├── base.html
-│   ├── index.html
-│   └── update.html
-├── init_db.py
+mytodo/<br>
+├── app.py<br>
+├── instance/<br>
+│   ├── todo.db  # will be create after running init_db.py<br>
+├── templates/<br>
+│   ├── base.html<br>
+│   ├── index.html<br>
+│   └── update.html<br>
+├── init_db.py<br>
 └── README.md
 
 ````
 
----
+
 
 ## 🚀 Getting Started
 
@@ -67,7 +67,7 @@ source venv/bin/activate    # Windows
 pip install flask flask_sqlalchemy
 ````
 
----
+
 
 ## 🗃️ Database Setup
 
