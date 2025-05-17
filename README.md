@@ -1,11 +1,10 @@
-```markdown
 # 🎯 MyToDo — Flask ToDo Web App
 
 A minimalist and responsive ToDo list web application built with **Flask**, **SQLite**, **SQLAlchemy**, and **Bootstrap 5**.
 
 > 🔧 Easily Add, ✅ View, 🔄 Update, and 🗑️ Delete your daily tasks!
 
----
+
 
 ## 📦 Features
 
@@ -16,7 +15,7 @@ A minimalist and responsive ToDo list web application built with **Flask**, **SQ
 - 🕒 Automatically timestamps your ToDos  
 - 🎨 Clean Bootstrap UI  
 
----
+
 
 ## 🛠 Tech Stack
 
@@ -25,11 +24,11 @@ A minimalist and responsive ToDo list web application built with **Flask**, **SQ
 - **Frontend**: HTML, Jinja2, Bootstrap 5  
 - **Templating Engine**: Jinja2  
 
----
+
 
 ## 📂 Folder Structure
 
-```
+
 
 mytodo/<br>
 ├── app.py<br>
@@ -42,7 +41,6 @@ mytodo/<br>
 ├── init_db.py<br>
 └── README.md
 
-````
 
 
 
@@ -105,4 +103,3 @@ Visit in browser: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 * [SQLAlchemy](https://www.sqlalchemy.org/)
 * [Jinja2](https://jinja.palletsprojects.com/)
 
----
