@@ -6,7 +6,7 @@ from flask import jsonify
 from flask import redirect
 
 app=Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI']='sqlite:///todo.db'
+app.config['SQLALCHEMY_DATABASE_URI']='sqlite:///sample_todo.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False
 db=SQLAlchemy(app)
 
@@ -24,13 +24,6 @@ class Todo(db.Model):
 @app.route('/',methods=['GET','POST'])
 def main():
     if request.method=='POST':
-        if Todo.query.count() >=10:
-            return '''
-                <script>
-                    alert("Todo list is full! Please delete some items first.");
-                    window.location.href = "/";
-                </script>
-            '''  
         title=request.form['title']
         desc=request.form['desc']
         todo=Todo(title=title,desc=desc)
